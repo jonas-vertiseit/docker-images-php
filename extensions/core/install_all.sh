@@ -4,6 +4,7 @@ set -e
 set -ex
 
 apt-get update
+apt-get install -y libav-tools mkvtoolnix
 
 for ext in */; do \
     cd $ext
