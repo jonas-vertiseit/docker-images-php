@@ -17,7 +17,6 @@ RUN cd /usr/local/lib/thecodingmachine-php/extensions/current/ && ./install_all.
 RUN apt-get update && \ 
 	apt-get install -y libav-tools \
 	mkvtoolnix \
-	ffmpeg \
 	&& apt-get clean
 USER docker
 
